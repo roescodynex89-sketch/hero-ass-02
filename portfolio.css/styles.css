@@ -574,14 +574,17 @@ margin-bottom: 10px;
     font-size: 24px;
 }
 .nav-button{
-    display: none;
+    display: none !important;
+    overflow: hidden;
+
 }
 
     .menu-icon{
         display: block;
     }
     .menu-button{
-        display: none;
+        display: none !important ;
+        
     }
     .nav-links{
         display: flex;
